@@ -1,6 +1,3 @@
-#hledání narcistických čísel
-#https://twitter.com/fermatslibrary/status/1243532484991684615
-#číslo je narcistické, pokud je součet jeho čísel na počet čísel 153=1 na třetí plus 2 na třetí plus 3 na třetí
 
 def narcissisticNumbers(numOfDigits):
     ret=[]
@@ -14,4 +11,4 @@ def narcissisticNumbers(numOfDigits):
     print(ret)
         
 
-narcissisticNumbers(1000000)
+narcissisticNumbers(100)
